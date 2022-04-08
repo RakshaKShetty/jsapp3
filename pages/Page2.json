@@ -90,6 +90,41 @@
               "isLoading": false,
               "iconAlign": "left",
               "defaultText": "{{JSObject1.myFun1()}}"
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 27,
+              "bottomRow": 31,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "parentColumnSpace": 12.65625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "{{JSObject1Copy.myFun1()}}",
+              "key": "1edw6ysj3h",
+              "rightColumn": 23,
+              "textAlign": "LEFT",
+              "widgetId": "osee01evm1",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "PARAGRAPH"
             }
           ]
         },
@@ -97,7 +132,8 @@
         "widgetNames": [
           "Input1",
           "Input2",
-          "MainContainer"
+          "MainContainer",
+          "Text1"
         ],
         "validOnPageLoadActions": true,
         "id": "Page2",
