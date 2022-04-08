@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\tlet a =  Input1.text;\n\treturn a ;\n\t}\n}",
+    "variables": []
+  },
+  "id": "Page2_JSObject1",
+  "deleted": false,
+  "gitSyncId": "625029b97881850f6e83717d_62502b337881850f6e83719c"
+}
