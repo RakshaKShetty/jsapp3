@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1Copy",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\tlet a = 10\n\t\tlet b = 20 \n\t\tconst sum = a + b ;\n\t\treturn sum ;\n\t}}",
+    "variables": []
+  },
+  "id": "Page1_JSObject1Copy",
+  "deleted": false,
+  "gitSyncId": "62502b8c7881850f6e8371a1_62502bdf7881850f6e8371b8"
+}
