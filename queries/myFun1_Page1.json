@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "fullyQualifiedName": "JSObject1Copy.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,17 +14,16 @@
       "userPermissions": []
     },
     "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "collectionId": "Page1_JSObject1Copy",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tlet a = 120\n\t\tlet b = 20 \n\t\tconst sum = a + b ;\n\t\treturn sum ;\n\t}",
+      "body": "() => {\n\t\tlet a = 10\n\t\tlet b = 20 \n\t\tconst sum = a + b ;\n\t\treturn sum ;\n\t}",
       "jsArguments": [],
       "isAsync": false
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tlet a = 120\n\t\tlet b = 20 \n\t\tconst sum = a + b ;\n\t\treturn sum ;\n\t}"
+      "() => {\n\t\tlet a = 10\n\t\tlet b = 20 \n\t\tconst sum = a + b ;\n\t\treturn sum ;\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.myFun1",
+  "id": "Page1_JSObject1Copy.myFun1",
   "deleted": false,
-  "gitSyncId": "625029b97881850f6e83717d_62502b067881850f6e837191"
+  "gitSyncId": "625031a77881850f6e837307_625031ac7881850f6e837312"
 }
