@@ -14,13 +14,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_JSObject1Copy",
+    "pageId": "Page2",
+    "collectionId": "Page2_JSObject1Copy",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  let a = 10;\n  let b = 20;\n  const sum = a + b;\n  return sum;\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },
@@ -33,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  let a = 10;\n  let b = 20;\n  const sum = a + b;\n  return sum;\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1Copy.myFun1",
+  "id": "Page2_JSObject1Copy.myFun1",
   "deleted": false,
-  "gitSyncId": "625029b97881850f6e83717d_625031ce7881850f6e83731e"
+  "gitSyncId": "625029b97881850f6e83717d_62502e757881850f6e837262"
 }

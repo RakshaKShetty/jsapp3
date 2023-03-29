@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5010,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 77,
           "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -54,6 +54,7 @@
               "labelTextSize": "0.875rem",
               "rightColumn": 19,
               "textAlign": "LEFT",
+              "dynamicHeight": "FIXED",
               "widgetId": "pwmqx007sy",
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -63,7 +64,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0px",
-              "fontSize": "0.875rem"
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -93,6 +96,7 @@
               "labelTextSize": "0.875rem",
               "rightColumn": 19,
               "textAlign": "LEFT",
+              "dynamicHeight": "FIXED",
               "widgetId": "crowxbdkiy",
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -102,11 +106,14 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0px",
-              "fontSize": "0.875rem"
+              "maxDynamicHeight": 9000,
+              "fontSize": "0.875rem",
+              "minDynamicHeight": 4
             }
           ]
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
