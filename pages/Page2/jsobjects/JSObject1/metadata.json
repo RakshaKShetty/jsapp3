@@ -6,8 +6,8 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyFun1: () => {\n\t\tlet a =  Input1.text;\n\treturn a ;\n\t}\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "Page2_JSObject1",
   "deleted": false,
